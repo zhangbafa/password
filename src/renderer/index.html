@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>PasswordBox 轻松管理你的密码</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; img-src 'self' https://passwordbox.ttbaojia.com ;style-src 'self' 'unsafe-inline'"
+    />
+    <style>
+     #loadingPage {
+      background-color: var(--color-bg-1);
+      font-size: 12px;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 99999;
+    }
+    .base {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .base span{
+    padding-left: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--color-text-2);
+  }
+</style>
+  </head>
+  <body>
+    
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

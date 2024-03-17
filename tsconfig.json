@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.node.json" }, { "path": "./tsconfig.web.json" }],
+  "compilerOptions": {
+    // 其他选项...
+    "allowJs": true,
+    // 其他选项...
+  }
+}
