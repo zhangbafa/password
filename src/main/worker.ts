@@ -127,6 +127,8 @@ try {
         parentPort.postMessage(restoreRow)
         break
       case 'updateMasterPassword':
+        updateMasterPasswords(parentPort,msg)
+        break
       case 'categoriesList':{
         const ddds = db.prepare('SELECT * FROM categories').all()
         parentPort.postMessage(ddds)
