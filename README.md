@@ -1,4 +1,4 @@
-# electron-app
+# passwordbox
 
 An Electron application with Vue and TypeScript
 
