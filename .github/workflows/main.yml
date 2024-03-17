@@ -20,7 +20,6 @@ jobs:
           node-version: 20
 
       - name: Build/release Electron app
-        name: Electron Builder
         inputs:
           skip_package_manager_install:
             description: Whether to skip package manager install
